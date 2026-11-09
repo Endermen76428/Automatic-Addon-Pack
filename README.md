@@ -243,3 +243,11 @@ Addonpacks could bridge this gap by bringing the same profile-based management e
 Most importantly, this would not require addon creators to change how they currently publish their projects. CurseForge would handle the organization and packaging, while the original addon projects would continue receiving downloads and rewards.
 
 I believe this would be a valuable addition to CurseForge and a significant improvement to the Minecraft Bedrock addon experience.
+
+## 10. Contact and Thanks
+
+Thank you for taking the time to read and consider this proposal.
+
+If the CurseForge team has any questions or needs further clarification, feel free to contact me on Discord [@endermen76428](https://discord.com/users/760855617383432262) or visit my [GitHub repository](https://github.com/Endermen76428/Automatic-Addon-Pack), where I have included examples of the `.mctemplate` files I created to demonstrate this implementation.
+
+I appreciate your time and consideration!
