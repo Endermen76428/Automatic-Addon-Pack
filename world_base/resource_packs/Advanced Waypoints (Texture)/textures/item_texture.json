@@ -1,0 +1,10 @@
+{
+  "resource_pack_name": "Advanced Waypoints",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "advanced_waypoints:null": { "textures": "textures/null" },
+
+    "waypoint_item": { "textures": "textures/advanced_waypoints/items/waypoint_item" },
+    "advanced_waypoint_item": { "textures": "textures/items/map_locked" }
+  }
+}

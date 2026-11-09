@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Builder's Wands v4 (Addon)",
+    "description": "pack.description",
+    "uuid": "5871f3ec-48d8-41fd-af65-426b92510e26",
+    "min_engine_version": [1, 21, 100],
+    "version": [4, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "3e0d56e8-ba52-4730-839a-a152380370e8",
+      "version": [4, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/builder_wand/main.js",
+      "uuid": "1a0fbe1f-0ccc-411b-9e08-e668d0524825",
+      "version": [4, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/builders-wands"
+  },
+  "dependencies": [
+    {
+      "uuid": "4630535d-4884-42ad-a63e-31fe8fdbb9f6",
+      "version": [4, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

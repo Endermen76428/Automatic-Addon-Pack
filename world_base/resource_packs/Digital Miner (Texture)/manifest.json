@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Digital Miner v1 (Texture)",
+    "description": "pack.description",
+    "uuid": "f17a75c8-bc77-4de5-929d-ea1491b0457d",
+    "min_engine_version": [1, 21, 130],
+    "version": [1, 0, 0],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "ec999a84-2860-46ba-9202-f95d60e2b090",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/digital-miner"
+  },
+  "capabilities" : ["pbr"],
+  "dependencies": [
+    {
+      "uuid": "a73fcdcf-c630-4404-949c-68710e2ecd59",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+## Ui - Config Wand
+ui.builder_wand:config.wand.title=Configuração da Varinha
+ui.builder_wand:config.wand.slider=Selecione o tamanho máximo da área
+ui.builder_wand:config.wand.toggle=Blocos Da Diagonal Conectados
+
+## Items
+item.builder_wand:creative_builder_wand=Builder Wand do Criativo
+item.builder_wand:diamond_builder_wand=Builder Wand de Diamante
+item.builder_wand:golden_builder_wand=Builder Wand de Ouro
+item.builder_wand:iron_builder_wand=Builder Wand de Ferro
+item.builder_wand:netherite_builder_wand=Builder Wand de Netherita
+item.builder_wand:stone_builder_wand=Builder Wand de Pedra
+item.builder_wand:wooden_builder_wand=Builder Wand de Madeira
+
+## Item Catalog
+builder_wand:itemGroup.name.builder_wand=Builder's Wands
+
+## Warn
+warning.builder_wand:will_place=Selecionado %1 Blocos
+warning.builder_wand:placed=Colocado %1 Blocos
+warning.builder_wand:low_durability=§cDurabilidade baixa, ação cancelada
+
+
+
+pack.description=§5Endermen76428§r não escreveu a descrição.

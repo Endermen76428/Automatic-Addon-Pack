@@ -1,0 +1,51 @@
+{
+  "format_version" : "1.21.60",
+  "sound_definitions" : {
+    // --------------
+    // Blocks
+    // --------------
+
+    //Digital Miner
+    "block.digital_miner:digital_miner.turning_off": {
+      "category": "block",
+      "max_distance": 16,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/digital_miner/blocks/digital_miner/turning_off" } ]
+    },
+    "block.digital_miner:digital_miner.turning_on": {
+      "category": "block",
+      "max_distance": 16,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/digital_miner/blocks/digital_miner/turning_on", "volume": 0.7 } ]
+    },
+
+    // --------------
+    // Warnings
+    // --------------
+
+    "warn.digital_miner:levelup": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/levelup", "is3D": false } ]
+    },
+    "warn.digital_miner:bass": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/note/bass", "is3D": false } ]
+    },
+    "warn.digital_miner:break": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/break", "is3D": false } ]
+    },
+    "warn.digital_miner:pop": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/pop", "is3D": false } ]
+    }
+  }
+}

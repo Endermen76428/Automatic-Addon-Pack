@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Advanced Waypoints v8.2 (Addon)",
+    "description": "pack.description",
+    "uuid": "ee9ec48e-985b-4b1b-9c78-f533de55fbf7",
+    "min_engine_version": [1, 21, 100],
+    "version": [8, 2, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "5e60ecee-8628-4df7-a9cb-960baeae2c41",
+      "version": [8, 2, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/advanced_waypoints/main.js",
+      "uuid": "86017c99-a768-46cd-a68a-a097d8e9a4b9",
+      "version": [8, 2, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/advanced-waypoints"
+  },
+  "dependencies": [
+    {
+      "uuid": "94f100b5-6196-463f-9084-4afcc58ff21d",
+      "version": [8, 2, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

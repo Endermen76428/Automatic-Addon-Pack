@@ -1,0 +1,67 @@
+{
+  "resource_pack_name": "Digital Miner",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "digital_miner:null": { "textures": "textures/digital_miner/null" },
+
+    // Digital Processor
+    "digital_miner:advanced_circuit": { "textures": "textures/digital_miner/items/machines/digital_miner/digital_processor/advanced_circuit" },
+    "digital_miner:digital_processor": { "textures": "textures/digital_miner/items/machines/digital_miner/digital_processor/digital_processor" },
+
+    // Dust
+    "digital_miner:coal_dust": { "textures": "textures/digital_miner/items/ore/coal_dust" },
+    "digital_miner:iron_dust": { "textures": "textures/digital_miner/items/ore/iron_dust" },
+
+    // Guidebook
+    "digital_miner:guidebook": { "textures": "textures/digital_miner/items/guidebook" },
+
+    // Laser Drill
+    "digital_miner:laser_drill": { "textures": "textures/digital_miner/items/machines/digital_miner/laser_drill/laser_drill" },
+
+    // Machine Engine
+    "digital_miner:machine_engine": { "textures": "textures/digital_miner/items/machines/digital_miner/machine_engine/machine_engine" },
+
+    // Monitor
+    "digital_miner:capacitor": { "textures": "textures/digital_miner/items/machines/digital_miner/monitor/capacitor" },
+    "digital_miner:integrated_circuit": { "textures": "textures/digital_miner/items/machines/digital_miner/monitor/integrated_circuit" },
+    "digital_miner:monitor": { "textures": "textures/digital_miner/items/machines/digital_miner/monitor/monitor" },
+
+    // Ore - Diamond
+    "digital_miner:diamond_dust": { "textures": "textures/digital_miner/items/ore/diamond/diamond_dust" },
+    "digital_miner:diamond_plate": { "textures": "textures/digital_miner/items/ore/diamond/diamond_plate" },
+
+    // Ore - Gold
+    "digital_miner:gold_dust": { "textures": "textures/digital_miner/items/ore/gold/gold_dust" },
+    "digital_miner:gold_plate": { "textures": "textures/digital_miner/items/ore/gold/gold_plate" },
+
+    // Ore - Quartz
+    "digital_miner:redstone_enriched_quartz": { "textures": "textures/digital_miner/items/ore/redstone_enriched_quartz" },
+
+    // Ore - Steel
+    "digital_miner:steel_dust": { "textures": "textures/digital_miner/items/ore/steel/steel_dust" },
+    "digital_miner:steel_ingot": { "textures": "textures/digital_miner/items/ore/steel/steel_ingot" },
+    "digital_miner:steel_nugget": { "textures": "textures/digital_miner/items/ore/steel/steel_nugget" },
+    "digital_miner:steel_plate": { "textures": "textures/digital_miner/items/ore/steel/steel_plate" },
+
+    // Tools
+    "digital_miner:hammer": { "textures": "textures/digital_miner/items/tools/hammer" },
+    "digital_miner:ore_scanner": { "textures": "textures/digital_miner/items/tools/ore_scanner" },
+
+    // Upgrades
+    "digital_miner:upgrade_template": { "textures": "textures/digital_miner/items/machines/upgrades/template" },
+    "digital_miner:speed_upgrade_2": { "textures": "textures/digital_miner/items/machines/upgrades/speed/speed_2" },
+    "digital_miner:speed_upgrade_3": { "textures": "textures/digital_miner/items/machines/upgrades/speed/speed_3" },
+    "digital_miner:speed_upgrade_4": { "textures": "textures/digital_miner/items/machines/upgrades/speed/speed_4" },
+    "digital_miner:stack_upgrade_1": { "textures": "textures/digital_miner/items/machines/upgrades/stack/stack_1" },
+    "digital_miner:stack_upgrade_2": { "textures": "textures/digital_miner/items/machines/upgrades/stack/stack_2" },
+    "digital_miner:stack_upgrade_3": { "textures": "textures/digital_miner/items/machines/upgrades/stack/stack_3" },
+    "digital_miner:stack_upgrade_4": { "textures": "textures/digital_miner/items/machines/upgrades/stack/stack_4" },
+    "digital_miner:speed_upgrade_1": { "textures": "textures/digital_miner/items/machines/upgrades/speed/speed_1" },
+    "digital_miner:fortune_upgrade_1": { "textures": "textures/digital_miner/items/machines/upgrades/fortune/fortune_1" },
+    "digital_miner:fortune_upgrade_2": { "textures": "textures/digital_miner/items/machines/upgrades/fortune/fortune_2" },
+    "digital_miner:fortune_upgrade_3": { "textures": "textures/digital_miner/items/machines/upgrades/fortune/fortune_3" },
+    "digital_miner:fortune_upgrade_4": { "textures": "textures/digital_miner/items/machines/upgrades/fortune/fortune_4" },
+    "digital_miner:silk_touch_upgrade_1": { "textures": "textures/digital_miner/items/machines/upgrades/silk_touch/silk_touch_1" },
+    "digital_miner:anchor_upgrade_1": { "textures": "textures/digital_miner/items/machines/upgrades/anchor/anchor_1" }
+  }
+}

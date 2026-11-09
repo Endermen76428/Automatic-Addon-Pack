@@ -1,0 +1,90 @@
+{
+  "format_version" : "1.21.60",
+  "sound_definitions" : {
+    // Warnings
+    "warn.advanced_waypoints:levelup": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/random/levelup", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/random/levelup", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/random/levelup", "is3D": false, "pitch": 1.05 }
+      ]
+    },
+    "warn.advanced_waypoints:bass": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/note/bass", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/note/bass", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/note/bass", "is3D": false, "pitch": 1.05 }
+      ]
+    },
+    "warn.advanced_waypoints:break": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/random/break", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/random/break", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/random/break", "is3D": false, "pitch": 1.05 }
+      ]
+    },
+    "warn.advanced_waypoints:pop": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/random/pop", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/random/pop", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/random/pop", "is3D": false, "pitch": 1.05 }
+      ]
+    },
+
+    "warn.advanced_waypoints:orb": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/random/orb", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/random/orb", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/random/orb", "is3D": false, "pitch": 1.05 }
+      ]
+    },
+    "warn.advanced_waypoints:break_amethyst": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/block/amethyst/break1", "is3D": false },
+        { "name" : "sounds/block/amethyst/break2", "is3D": false },
+        { "name" : "sounds/block/amethyst/break3", "is3D": false },
+        { "name" : "sounds/block/amethyst/break4", "is3D": false }
+      ]
+    },
+    "warn.advanced_waypoints:enchanting_table": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/block/enchanting_table/enchant1", "is3D": false },
+        { "name" : "sounds/block/enchanting_table/enchant2", "is3D": false },
+        { "name" : "sounds/block/enchanting_table/enchant3", "is3D": false }
+      ]
+    },
+    "warn.advanced_waypoints:deactive": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [
+        { "name" : "sounds/block/beacon/deactivate", "is3D": false, "pitch": 0.95 },
+        { "name" : "sounds/block/beacon/deactivate", "is3D": false, "pitch": 1.0 },
+        { "name" : "sounds/block/beacon/deactivate", "is3D": false, "pitch": 1.05 }
+      ]
+    }
+  }
+}
+
+

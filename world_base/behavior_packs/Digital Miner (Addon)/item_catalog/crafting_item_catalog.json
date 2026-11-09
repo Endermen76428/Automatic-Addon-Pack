@@ -1,0 +1,69 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": { "name": "digital_miner:itemGroup.name.dust", "icon": "digital_miner:gold_dust" },
+            "items": [
+              "digital_miner:coal_dust",
+              "digital_miner:iron_dust",
+              "digital_miner:steel_dust",
+              "digital_miner:gold_dust",
+              "digital_miner:diamond_dust"
+            ]
+          },
+          {
+            "group_identifier": { "name": "digital_miner:itemGroup.name.plate", "icon": "digital_miner:diamond_plate" },
+            "items": [
+              "digital_miner:steel_plate",
+              "digital_miner:gold_plate",
+              "digital_miner:diamond_plate"
+            ]
+          },
+          {
+            "group_identifier": { "name": "digital_miner:itemGroup.name.steel", "icon": "digital_miner:steel_ingot" },
+            "items": [
+              "digital_miner:steel_ingot",
+              "digital_miner:steel_nugget"
+            ]
+          },
+          {
+            "group_identifier": { "name": "digital_miner:itemGroup.name.components", "icon": "digital_miner:integrated_circuit" },
+            "items": [
+              "digital_miner:capacitor",
+              "digital_miner:integrated_circuit",
+              "digital_miner:advanced_circuit",
+              "digital_miner:light_generator",
+              "digital_miner:monitor",
+              "digital_miner:digital_processor",
+              "digital_miner:machine_engine",
+              "digital_miner:laser_drill"
+            ]
+          },
+          {
+            "group_identifier": { "name": "digital_miner:itemGroup.name.upgrades", "icon": "digital_miner:speed_upgrade_4" },
+            "items": [
+              "digital_miner:upgrade_template",
+              "digital_miner:speed_upgrade_1",
+              "digital_miner:speed_upgrade_2",
+              "digital_miner:speed_upgrade_3",
+              "digital_miner:speed_upgrade_4",
+              "digital_miner:stack_upgrade_1",
+              "digital_miner:stack_upgrade_2",
+              "digital_miner:stack_upgrade_3",
+              "digital_miner:stack_upgrade_4",
+              "digital_miner:fortune_upgrade_1",
+              "digital_miner:fortune_upgrade_2",
+              "digital_miner:fortune_upgrade_3",
+              "digital_miner:silk_touch_upgrade_1",
+              "digital_miner:anchor_upgrade_1"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

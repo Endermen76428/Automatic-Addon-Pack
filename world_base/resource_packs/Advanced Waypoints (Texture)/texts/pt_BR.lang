@@ -1,0 +1,136 @@
+### Command
+commands.advanced_waypoints.main_panel=Abre o Painel Principal dos Waypoints
+commands.advanced_waypoints.teleport=Habilita o Teleporte e define o custo de XP por distância
+
+### Entity
+entity.advanced_waypoints:waypoint.name=Waypoint
+
+### Item
+item.wp:waypoint_item=Waypoint
+item.wp:advanced_waypoint_item=Waypoint Avançado
+
+### UI
+## Main Painel
+ui.advanced_waypoints:config.title=Waypoints
+ui.advanced_waypoints:config.button.teleport=Teleportar
+ui.advanced_waypoints:config.button.create=Criar Ponto
+ui.advanced_waypoints:config.button.edit=Editar Ponto
+ui.advanced_waypoints:edit.visible=Editar Visibilidade
+ui.advanced_waypoints:config.button.remove=Remover Ponto
+ui.advanced_waypoints:config.button.options=Opções
+
+## Teleport
+ui.advanced_waypoints:tp.title=Teleportar para o Waypoint
+
+## Create/Edit
+ui.advanced_waypoints:create.title=Criar Waypoint
+ui.advanced_waypoints:edit.title=Editar Waypoints
+ui.advanced_waypoints:create.name=Nome do Waypoint:
+ui.advanced_waypoints:create.name_hold=Coloque o nome aqui
+ui.advanced_waypoints:create.pos=Posição do Waypoint:
+ui.advanced_waypoints:create.pos_hold=Exemplo: -7, 61, 43
+ui.advanced_waypoints:create.turn_off_close=Desativar quando Perto
+ui.advanced_waypoints:create.icon=Icone do Waypoint:
+ui.advanced_waypoints:create.icon.first_letter=Primeira Letra
+ui.advanced_waypoints:create.icon.default=Padrão
+ui.advanced_waypoints:create.icon.death=Morte
+ui.advanced_waypoints:create.icon.house=Casa
+ui.advanced_waypoints:create.icon.sword=Espada
+ui.advanced_waypoints:create.icon.pickaxe=Picareta
+ui.advanced_waypoints:create.icon.axe=Machado
+ui.advanced_waypoints:create.color=Cor do Waypoint:
+ui.advanced_waypoints.create.color.0=§lBranco
+ui.advanced_waypoints.create.color.1=§l§iCinza Claro
+ui.advanced_waypoints.create.color.2=§l§jCinza
+ui.advanced_waypoints.create.color.3=§l§0Preto
+ui.advanced_waypoints.create.color.4=§l§mMarrom
+ui.advanced_waypoints.create.color.5=§l§cVermelho
+ui.advanced_waypoints.create.color.6=§l§6Laranja
+ui.advanced_waypoints.create.color.7=§l§eAmarelo
+ui.advanced_waypoints.create.color.8=§l§aVerde-Limão
+ui.advanced_waypoints.create.color.9=§l§2Verde
+ui.advanced_waypoints.create.color.10=§l§3Ciano
+ui.advanced_waypoints.create.color.11=§l§bAzul Claro
+ui.advanced_waypoints.create.color.12=§l§1Azul
+ui.advanced_waypoints.create.color.13=§l§uLilás
+ui.advanced_waypoints.create.color.14=§l§5Magenta
+ui.advanced_waypoints.create.color.15=§l§dRosa
+ui.advanced_waypoints:create.slider_r=§cR
+ui.advanced_waypoints:create.slider_g=§aG
+ui.advanced_waypoints:create.slider_b=§sB
+ui.advanced_waypoints:create.visible=É visivel
+ui.advanced_waypoints:create.button_save=Salvar
+
+## Delete
+ui.advanced_waypoints:delete.title=Deletar Waypoint
+ui.advanced_waypoints:delete.body=Escolha um para deletar:
+ui.advanced_waypoints:delete.buttonDelete=Deletar
+ui.advanced_waypoints:delete.confirm1=Você realmente quer deletar "§a%1§r"
+ui.advanced_waypoints:delete.confirm2= em §3%1§r
+ui.advanced_waypoints:yes=Sim
+ui.advanced_waypoints:no=Não
+
+## Share
+ui.advanced_waypoints:config.button.share=Compartilhar Waypoints
+ui.advanced_waypoints:share.players=Selecione um Jogador para receber:
+ui.advanced_waypoints:share.waypoints=Selecione um Waypoint para compartilhar:
+ui.advanced_waypoints:share.confirm.body=Você quer compartilhar o waypoint: "§a%1§r" para §e%2§r?
+
+## Options
+ui.advanced_waypoints:options.title=Configurações
+ui.advanced_waypoints:options.general.title=Configurações Gerais
+ui.advanced_waypoints:options.general.toggle.showName=Mostrar Nome
+ui.advanced_waypoints:options.general.toggle.showDistance=Mostrar Distância
+ui.advanced_waypoints:options.general.toggle.showBeacon=Mostrar Sinalizador
+ui.advanced_waypoints:options.general.toggle.alwaysShowInfo=Sempre Mostrar: Info
+ui.advanced_waypoints:options.general.toggle.alwaysShowBeam=Sempre Mostrar: Sinalizador
+ui.advanced_waypoints:options.general.toggle.showPos=Mostrar Posição
+ui.advanced_waypoints:options.general.toggle.reciveSharing=Receber Compatilhamentos
+ui.advanced_waypoints:options.general.toggle.createDeathPoint=Criar Ponto de Morte
+ui.advanced_waypoints:options.general.dropdown.deathPointDate=Data do Ponto de Morte:
+ui.advanced_waypoints:options.general.dropdown.deathPointUTC=Fuso Horário da Morte:
+
+ui.advanced_waypoints:options.recover.title=Reencontrar Waypoints
+
+## Admin Options
+ui.advanced_waypoints:config.tp=Teleporte Ativo
+ui.advanced_waypoints:config.cost=Teleporte Custa XP
+ui.advanced_waypoints:config.distance=Distancia para começar a custar XP
+
+### Warining
+## General
+warn.advanced_waypoints:dontHavePoints=§cVocê não tem waypoints nessa dimensão
+
+## Teleport
+warn.advanced_waypoints:insufficientXp=§cVocê não tem XP suficiente!
+
+## Create/Edit
+warn.advanced_waypoints:cancelCreatePoint=§cCriação do waypoint cancelada
+warn.advanced_waypoints:invalidName=§cNome do waypoint inválido
+warn.advanced_waypoints:invalidPos=§cPosição do waypoint inválido
+warn.advanced_waypoints:failCreatePoint=§cFalha ao criar o waypoint
+warn.advanced_waypoints:createPoint=Waypoint "§a%1§r" criado com sucesso
+warn.advanced_waypoints:editPoint=Waypoint "§a%1§r" editado com sucesso
+warn.advanced_waypoints:manyWaypoints=§cVocê tem muitos Waypoints ativos, para uma melhor performance deixe a visibilidade de Waypoints desnecessários deslidaga.
+
+## Delete
+warn.advanced_waypoints:dontDelete=Nenhum waypoints deletado
+warn.advanced_waypoints:waypointNotFound=§cNão foi possivel encontrar o Waypoint
+warn.advanced_waypoints:deleted=Waypoints "§a%1§r" deletado
+
+## Share
+warn.advanced_waypoints:noPlayersOnline=§cNão há Jogadores para compatilhar.
+warn.advanced_waypoints:dontShared=Waypoint não compartilhado.
+warn.advanced_waypoints:targetDontAcceptShare=Esse jogador não aceita compartilhamentos.
+warn.advanced_waypoints:reciveWaypoint=Você recebeu um Waypoint. "§a%1§r" de §e%2.
+warn.advanced_waypoints:alreadySent=§cVocê já compartilhou esse waypoint com essa pessoa.
+warn.advanced_waypoints:playerOffline=§cJogador Offline, Waypoint não enviador.
+
+## Settings
+warn.advanced_waypoints:saveOptions=Todas as opções foram salvas
+warn.advanced_waypoints:cancelOptions=§cAlterações desfeitas
+
+
+
+pack.description=§5Endermen76428§r não escreveu a descrição.
+pack.name=Waypoints Avançado v8 (Textura)

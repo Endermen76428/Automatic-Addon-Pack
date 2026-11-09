@@ -1,0 +1,15 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "digital_miner:block_outline" : {
+        "events" : {
+          "death" : "",
+          "hurt" : ""
+        },
+        "pitch" : [ 0.80, 1.0 ],
+        "variants" : { "key" : null },
+        "volume" : 0.0
+      }
+    }
+  }
+}

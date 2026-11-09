@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": { "name": "builder_wand:itemGroup.name.builder_wand", "icon": "builder_wand:diamond_builder_wand" },
+            "items": [
+              "builder_wand:wooden_builder_wand",
+              "builder_wand:stone_builder_wand",
+              "builder_wand:golden_builder_wand",
+              "builder_wand:iron_builder_wand",
+              "builder_wand:diamond_builder_wand",
+              "builder_wand:netherite_builder_wand",
+              "builder_wand:creative_builder_wand"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

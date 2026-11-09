@@ -1,0 +1,29 @@
+{
+  "resource_pack_name": "Digital Miner",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "digital_miner:null": { "textures": "textures/digital_miner/null" },
+
+    // Digital Miner
+    "digital_miner:digital_miner_bottom": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_bottom" },
+    "digital_miner:digital_miner_top": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_top" },
+    "digital_miner:digital_miner_front": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_front" },
+    "digital_miner:digital_miner_side": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_side" },
+    "digital_miner:digital_miner_support": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_support" },
+    "digital_miner:digital_miner_output": { "textures": "textures/digital_miner/blocks/machines/digital_miner/miner_output" },
+    "digital_miner:digital_miner_monitor_keyboard": { "textures": "textures/digital_miner/blocks/machines/digital_miner/monitor/keyboard" },
+    "digital_miner:digital_miner_monitor_off": { "textures": "textures/digital_miner/blocks/machines/digital_miner/monitor/monitor_off" },
+    "digital_miner:digital_miner_monitor_on": { "textures": "textures/digital_miner/blocks/machines/digital_miner/monitor/monitor_on" },
+
+    // Glass
+    "digital_miner:diamond_glass": { "textures": "textures/digital_miner/blocks/glass/diamond_glass" },
+
+    // Laser Drill
+    "digital_miner:light_generator": { "textures": "textures/digital_miner/blocks/machines/digital_miner/laser_drill/light_generator" },
+
+    // Steel
+    "digital_miner:steel_block": { "textures": "textures/digital_miner/blocks/ore/steel/steel_block" }
+  }
+}

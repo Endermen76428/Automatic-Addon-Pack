@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "3c598ea0-7c43-41eb-9e57-26875d0ef8d6",
+    "base_game_version": [ 1, 26, 30 ],
+    "version": [ 1, 0, 0 ],
+    "lock_template_options": false,
+    "allow_random_seed": true
+  },
+  "modules": [
+    {
+      "type": "world_template",
+      "uuid": "fa764cff-d862-4ab0-a31b-1cc0bbd73cca",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

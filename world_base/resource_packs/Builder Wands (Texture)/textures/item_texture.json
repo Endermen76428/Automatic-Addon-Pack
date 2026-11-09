@@ -1,0 +1,13 @@
+{
+  "resource_pack_name": "Builder's Wands",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "builder_wand:creative_builder_wand": { "textures": "textures/builder_wand/items/creative_builder_wand" },
+    "builder_wand:diamond_builder_wand": { "textures": "textures/builder_wand/items/diamond_builder_wand" },
+    "builder_wand:golden_builder_wand": { "textures": "textures/builder_wand/items/golden_builder_wand" },
+    "builder_wand:iron_builder_wand": { "textures": "textures/builder_wand/items/iron_builder_wand" },
+    "builder_wand:netherite_builder_wand": { "textures": "textures/builder_wand/items/netherite_builder_wand" },
+    "builder_wand:stone_builder_wand": { "textures": "textures/builder_wand/items/stone_builder_wand" },
+    "builder_wand:wooden_builder_wand": { "textures": "textures/builder_wand/items/wooden_builder_wand" }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Builder's Wands v4 (Texture)",
+    "description": "pack.description",
+    "uuid": "4630535d-4884-42ad-a63e-31fe8fdbb9f6",
+    "min_engine_version": [1, 21, 100],
+    "version": [4, 0, 0],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e12d8eac-6674-483c-856c-4349479ff1a5",
+      "version": [4, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/builders-wands"
+  },
+  "capabilities" : ["pbr"],
+  "dependencies": [
+    {
+      "uuid": "5871f3ec-48d8-41fd-af65-426b92510e26",
+      "version": [4, 0, 0]
+    }
+  ]
+}

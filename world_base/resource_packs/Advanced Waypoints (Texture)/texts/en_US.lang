@@ -1,0 +1,136 @@
+### Command
+commands.advanced_waypoints.main_panel=Open the Main Waypoints Painel
+commands.advanced_waypoints.teleport=Enable the Teleport and set the XP cost by distance
+
+### Entity
+entity.advanced_waypoints:waypoint.name=Waypoint
+
+### Item
+item.wp:waypoint_item=Waypoint
+item.wp:advanced_waypoint_item=Advanced Waypoint
+
+### UI
+## Main Painel
+ui.advanced_waypoints:config.title=Waypoints
+ui.advanced_waypoints:config.button.teleport=Teleport
+ui.advanced_waypoints:config.button.create=Create Point
+ui.advanced_waypoints:config.button.edit=Edit Point
+ui.advanced_waypoints:edit.visible=Edit Visibility
+ui.advanced_waypoints:config.button.remove=Remove Point
+ui.advanced_waypoints:config.button.options=Options
+
+## Teleport
+ui.advanced_waypoints:tp.title=Teleport to Waypoint
+
+## Create/Edit
+ui.advanced_waypoints:create.title=Create Waypoint
+ui.advanced_waypoints:edit.title=Edit Waypoints
+ui.advanced_waypoints:create.name=Waypoint Name:
+ui.advanced_waypoints:create.name_hold=Put name here
+ui.advanced_waypoints:create.pos=Waypoint Position:
+ui.advanced_waypoints:create.pos_hold=Example: -7, 61, 43
+ui.advanced_waypoints:create.turn_off_close=Turn Off When Close
+ui.advanced_waypoints:create.icon=Waypoint Icon:
+ui.advanced_waypoints:create.icon.first_letter=First Letter
+ui.advanced_waypoints:create.icon.default=Default
+ui.advanced_waypoints:create.icon.death=Death
+ui.advanced_waypoints:create.icon.house=house
+ui.advanced_waypoints:create.icon.sword=Sword
+ui.advanced_waypoints:create.icon.pickaxe=Pickaxe
+ui.advanced_waypoints:create.icon.axe=Axe
+ui.advanced_waypoints:create.color=Waypoint Color:
+ui.advanced_waypoints.create.color.0=§lWhite
+ui.advanced_waypoints.create.color.1=§l§iLight Gray
+ui.advanced_waypoints.create.color.2=§l§jGray
+ui.advanced_waypoints.create.color.3=§l§0Black
+ui.advanced_waypoints.create.color.4=§l§mBrown
+ui.advanced_waypoints.create.color.5=§l§cRed
+ui.advanced_waypoints.create.color.6=§l§6Orange
+ui.advanced_waypoints.create.color.7=§l§eYellow
+ui.advanced_waypoints.create.color.8=§l§aLime
+ui.advanced_waypoints.create.color.9=§l§2Green
+ui.advanced_waypoints.create.color.10=§l§3Cyan
+ui.advanced_waypoints.create.color.11=§l§bLight Blue
+ui.advanced_waypoints.create.color.12=§l§1Blue
+ui.advanced_waypoints.create.color.13=§l§uPurple
+ui.advanced_waypoints.create.color.14=§l§5Magenta
+ui.advanced_waypoints.create.color.15=§l§dPink
+ui.advanced_waypoints:create.slider_r=§cR
+ui.advanced_waypoints:create.slider_g=§aG
+ui.advanced_waypoints:create.slider_b=§sB
+ui.advanced_waypoints:create.visible=Is visible
+ui.advanced_waypoints:create.button_save=Save
+
+## Delete
+ui.advanced_waypoints:delete.title=Delete Waypoint
+ui.advanced_waypoints:delete.body=Choose one to delete:
+ui.advanced_waypoints:delete.buttonDelete=Delete
+ui.advanced_waypoints:delete.confirm1=Do you really want to delete "§a%1§r"
+ui.advanced_waypoints:delete.confirm2= at §3%1§r
+ui.advanced_waypoints:yes=Yes
+ui.advanced_waypoints:no=No
+
+## Share
+ui.advanced_waypoints:config.button.share=Share Waypoints
+ui.advanced_waypoints:share.players=Select a Player to recive:
+ui.advanced_waypoints:share.waypoints=Select a Waypoint to share:
+ui.advanced_waypoints:share.confirm.body=Do you want to share the waypoint: "§a%1§r" to §e%2§r?
+
+## Options
+ui.advanced_waypoints:options.title=Options
+ui.advanced_waypoints:options.general.title=General Settings
+ui.advanced_waypoints:options.general.toggle.showName=Show Name
+ui.advanced_waypoints:options.general.toggle.showDistance=Show Distance
+ui.advanced_waypoints:options.general.toggle.showBeacon=Show Beacon
+ui.advanced_waypoints:options.general.toggle.alwaysShowInfo=Always Show: Info
+ui.advanced_waypoints:options.general.toggle.alwaysShowBeam=Always Show: Beam
+ui.advanced_waypoints:options.general.toggle.showPos=Show Position
+ui.advanced_waypoints:options.general.toggle.reciveSharing=Receive Shares
+ui.advanced_waypoints:options.general.toggle.createDeathPoint=Create Death Point
+ui.advanced_waypoints:options.general.dropdown.deathPointDate=Death Point Date:
+ui.advanced_waypoints:options.general.dropdown.deathPointUTC=Death Time Zone:
+
+ui.advanced_waypoints:options.recover.title=Recover Waypoints
+
+## Admin Options
+ui.advanced_waypoints:config.tp=Teleport Enabled
+ui.advanced_waypoints:config.cost=Teleport Cost XP
+ui.advanced_waypoints:config.distance=Distance to start cost XP
+
+### Warining
+## General
+warn.advanced_waypoints:dontHavePoints=§cYou have no waypoints at this dimension
+
+## Teleport
+warn.advanced_waypoints:insufficientXp=§cYou don't have enough XP!
+
+## Create/Edit
+warn.advanced_waypoints:cancelCreatePoint=§cWaypoint creation cancelled
+warn.advanced_waypoints:invalidName=§cInvalid waypoint name
+warn.advanced_waypoints:invalidPos=§cInvalid waypoint position
+warn.advanced_waypoints:failCreatePoint=§cFailed to create waypoint
+warn.advanced_waypoints:createPoint=Waypoint "§a%1§r" successfully created
+warn.advanced_waypoints:editPoint=Waypoint "§a%1§r" successfully edited
+warn.advanced_waypoints:manyWaypoints=§cYou have too many active Waypoints, for better performance leave the visibility of unnecessary Waypoints turned off.
+
+## Delete
+warn.advanced_waypoints:dontDelete=No Waypoints deleted
+warn.advanced_waypoints:waypointNotFound=§cCouldn't find the Waypoint
+warn.advanced_waypoints:deleted=Waypoints "§a%1§r" deleted
+
+## Share
+warn.advanced_waypoints:noPlayersOnline=§cThere are no players to share.
+warn.advanced_waypoints:dontShared=Unshared Waypoint.
+warn.advanced_waypoints:targetDontAcceptShare=This player doesn't accept shares.
+warn.advanced_waypoints:reciveWaypoint=You recived a Waypoint. "§a%1§r" from §e%2.
+warn.advanced_waypoints:alreadySent=§cYou have already shared this waypoint to this person.
+warn.advanced_waypoints:playerOffline=§cPlayer Offline, Waypoint not sent.
+
+## Settings
+warn.advanced_waypoints:saveOptions=All options have been saved
+warn.advanced_waypoints:cancelOptions=§cChanges Undone
+
+
+
+pack.description=§5Endermen76428§r don't write descriptions.
+pack.name=Advanced Waypoints v8 (Texture)

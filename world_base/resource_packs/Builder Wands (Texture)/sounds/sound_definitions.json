@@ -1,0 +1,30 @@
+{
+  "format_version" : "1.21.60",
+  "sound_definitions" : {
+    // Warnings
+    "builder_wand.warn.levelup": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/levelup", "is3D": false } ]
+    },
+    "builder_wand.warn.bass": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/note/bass", "volume": 3, "is3D": false } ]
+    },
+    "builder_wand.warn.break": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/break", "is3D": false } ]
+    },
+    "builder_wand.warn.pop": {
+      "category": "warn",
+      "max_distance": 8,
+      "min_distance": 0,
+      "sounds": [ { "name" : "sounds/random/pop", "is3D": false } ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Advanced Waypoints v8.2 (Texture)",
+    "description": "pack.description",
+    "uuid": "94f100b5-6196-463f-9084-4afcc58ff21d",
+    "min_engine_version": [1, 21, 100],
+    "version": [8, 2, 0],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5a5510c5-5965-48af-a3b6-44cbaa434af5",
+      "version": [8, 2, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/advanced-waypoints"
+  },
+  "capabilities" : ["pbr"],
+  "dependencies": [
+    {
+      "uuid": "ee9ec48e-985b-4b1b-9c78-f533de55fbf7",
+      "version": [8, 2, 0]
+    }
+  ]
+}

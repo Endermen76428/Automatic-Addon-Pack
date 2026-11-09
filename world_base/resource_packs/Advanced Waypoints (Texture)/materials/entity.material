@@ -1,0 +1,19 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "waypoint_material:entity_alphatest": {
+      "+defines": [ "USE_UV_ANIM" ],
+      "depthFunc": "Always",
+      "+states": [
+        "Blending"
+      ]
+    },
+
+    "waypoint_beam:entity_beam": {
+      "+states": [
+        "Blending"
+      ]
+    }
+  }
+}

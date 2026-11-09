@@ -1,0 +1,11 @@
+{
+  "format_version" : "1.21.40",
+  // Glass
+  "digital_miner:diamond_glass" : { "sound" : "glass" },
+
+  // Laser Drill
+  "digital_miner:light_generator" : { "sound" : "iron" },
+
+  // Ore - Steel
+  "digital_miner:steel_block" : { "sound" : "iron" }
+}

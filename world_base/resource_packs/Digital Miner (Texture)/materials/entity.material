@@ -1,0 +1,55 @@
+// Creator - https://www.curseforge.com/members/wanmine/projects
+// This guy is cool
+{
+  "materials": {
+    "version": "1.0.0",
+    // Visible behide Walls
+    "always_visible:stencilref": {
+      "depthFunc": "Always",
+      "frontFace": {"stencilFunc": "NotEqual", "stencilPassOp": "Replace"},
+      "backFace": {"stencilFunc": "NotEqual", "stencilPassOp": "Replace"},
+      "variants": [
+        {"zbpknso": {"stencilRef": 4, "stencilReadMask": 4}},
+        {"jpkpgge": {"stencilRef": 8, "stencilReadMask": 8}}
+      ],
+      "+states": ["Blending", "DisableDepthWrite"],
+      "-defines": ["FANCY"],
+      "blendSrc": "One",
+      "blendDst": "One"
+    },
+    "stencilref:entity_emissive": {
+      "+states": ["EnableStencilTest"],
+      "-states": ["DisableCulling"],
+      "frontFace": {"stencilFunc": "NotEqual"},
+      "backFace": {"stencilFunc": "NotEqual"},
+      "variants": [
+        {"zbpknso": {"stencilRef": 4, "stencilReadMask": 4}},
+        {"jpkpgge": {"stencilRef": 8, "stencilReadMask": 8}}
+      ],
+      "stencilRef": 2,
+      "stencilReadMask": 2,
+      "stencilWriteMask": 0
+    },
+
+    // Remove the texture
+    "overwrite:opaque_custom": {
+      "depthFunc": "Always",
+      "+states": ["DisableColorWrite"],
+      "-states": ["DisableCulling"]
+    },
+    "opaque_custom:entity": {
+      "+defines": ["USE_SKINNING"],
+      "vertexFields": [
+        {"field": "Position"},
+        {"field": "BoneId0"},
+        {"field": "Normal"},
+        {"field": "UV0"}
+      ],
+      "+states": ["EnableStencilTest", "StencilWrite"],
+      "frontFace": {"stencilFunc": "Always", "stencilPassOp": "Replace"},
+      "backFace": {"stencilFunc": "Always", "stencilPassOp": "Replace"},
+      "stencilRef": 2,
+      "stencilWriteMask": 2
+    }
+  }
+}
