@@ -1,1 +1,17 @@
 The world_icon file needs to be a .jpeg; .png won't work.
+
+tevel.dat file activating Education Edition and Experiments:
+1b = enabled / 0b = disabled
+
+  educationFeaturesEnabled: 1b, // Enable Education Edition without need to enable cheats
+  experiments: {
+    experiments_ever_used: 0b, // I'm not entirely sure, but I believe it's a record to track whether the experiments were active.
+    saved_with_toggled_experiments: 0b, // ^
+    villager_trades_rebalance: 0b,
+    y_2026_drop_4: 0b,
+    upcoming_creator_features: 1b,
+    gametest: 1b, // Beta API
+    experimental_creator_cameras: 1b,
+    voxel_shapes: 0b,
+    poi: 0b
+  }
